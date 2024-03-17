@@ -4,6 +4,10 @@ This is a little finicky but requires low effort to get livestreams on the TV.
 Scripts for Linux (BASH) and (Powershell)
 Script for Windows (Powershell)
 
+## **Requirements**
+Windows or Linux, does not matter. What does matter. You need to install [`ffmpeg`](https://ffmpeg.org/) so it can be used by the command line environment 
+
+
 ## **How To**
 Place the script file `livestream.ps1` in your `/AppData/Local/VotV/Assets/tv` folder
 Remove all other `.mp4` files from this folder
