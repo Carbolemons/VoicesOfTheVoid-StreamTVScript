@@ -21,3 +21,11 @@ Remove all other `.mp4` files from this folder
  - Wait 60 seconds, and then play `stream001.mp4`
  - Enjoy :)
        
+## **What it does/How it works**
+Voices of the void will _not_ automatically refresh the television, nor the file that is currently being played. 
+The game also hates when the current file it's playing gets overwritten
+
+So: I capture 30 seconds of stream, save it to an mp4, kick off a job to reencode the capturing so there isnt any junk whilst capturing the next 30 seconds
+I write these segments to the tv folder, and then it continuously updates these segements as you watch the stream. 
+
+When voices of the void gets back in the playlist, it will re-read the file - thus, uninterrupted broadcast
